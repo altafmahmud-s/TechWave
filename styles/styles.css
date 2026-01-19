@@ -24,7 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* margin-bottom: 30px; */
     margin-left: 200px;
     margin-right: 200px;
@@ -222,6 +222,7 @@ margin-left: 40px;
     width: 100%;
     max-width: 1600px;
     background-color: #230E3D;
+    padding-bottom: 120px;
 }
 .choose-title{
     padding-top: 120px;
@@ -302,3 +303,68 @@ margin-left: 40px;
     color: rgb(156, 144, 144);
     line-height: 24px;
 }
+
+
+/* featured part */
+
+.featured-container{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.feature-card{
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.featured-title{
+    text-align: center;
+}
+.featured-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.card-title{
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 24px 24px 24px 12px;
+}
+
+.card-para{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 24px 24px 24px;
+}
+.time{
+    color: #00FF88;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    
+}
+
+.video{
+    border-radius: 24px 24px 0px 0px;
+    width: 380px;
+
+}
+.card{
+    border-radius: 24px 24px 24px 24px;
+    background-color: #250D44;
+    width: 380px;
+    gap: 20px;
+}
+

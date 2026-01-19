@@ -314,6 +314,7 @@ margin-left: 40px;
     padding-top: 120px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 120px;
 }
 
 .feature-card{
@@ -353,7 +354,13 @@ margin-left: 40px;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    padding-left: 20px;
     
+}
+
+.img{
+    padding-right: 5px;
+    /* padding-top: 5px; */
 }
 
 .video{
@@ -367,4 +374,78 @@ margin-left: 40px;
     width: 380px;
     gap: 20px;
 }
+
+.host-container{
+    background-color: #1A0B2E;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.host-title{
+    /* width: 1200px; */
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 120px;
+
+}
+.host-text{
+    text-align: center;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.alex-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 200px;
+    padding-right: 200px;
+    /* color: #351165; */
+}
+.alex-bg{
+    background-color: #351165;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+
+}
+
+.alex-discription{
+    padding-left: 20px;
+}
+
+/* .alex{
+    border-radius: 50px;
+} */
+
+.name{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.alex-para{
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+
+}
+.icon{
+    border: 1px solid #533C72;
+    padding: 2px;
+    border-radius: 8px;
+}
+.social-icon{
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    align-items: center;
+}
+
 

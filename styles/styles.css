@@ -137,7 +137,25 @@ a{
 
 }
 
-.about-title{
-    text-align: center;
+#about{
+    width: 100%;
+    max-width: 1600px;
 }
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-title{
+    width: 1200px;
+    height: 222px;
+    text-align: center;
+    padding-top: 50px;
 
+}
+.about-title h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+}

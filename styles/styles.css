@@ -1,8 +1,8 @@
 
-hr{
+/* hr{
     color: #FFFFFF;
     width: 1200px;
-}
+} */
 
 *{
     margin: 0px;
@@ -98,7 +98,7 @@ a{
 }
 .banner-text h2{
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 800;
     padding-top: 40px;
 
@@ -112,15 +112,19 @@ a{
 
 }
 
-.banner-button{
+.banner-button {
     padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .listen{
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 16px;
-    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    font-size: 1rem;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
     padding: 12px;
     text-align: center;
      border-radius: 10000px;
@@ -130,7 +134,7 @@ a{
 .subcribe{
     color: #00FF88;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #1A0B2E;
     /* background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1))); */
     padding: 12px;
@@ -165,7 +169,7 @@ a{
 }
 .about-title h2{
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -178,6 +182,16 @@ a{
  .about-title, .join{
     padding-top: 20px;
 }
+
+.count-hr{
+    width: 100%;
+    max-width: 1600px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: red;
+    border: 1px solid red;
+
+}
 .count{
     display: flex;
     justify-content: center;
@@ -185,7 +199,7 @@ a{
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 120px;
-    gap: 80px;
+    gap: 40px;
 }
 .count-level{
     padding-top: 80px;
@@ -193,29 +207,20 @@ a{
 }
 .count-level h2{
     color: #00FF88;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
-    padding-bottom: 36px;
+    padding-bottom: 25px;
 }
 .count-level p{
     color: #FFFFFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
 }
 
 
-.fact-card{
-border: 1px solid #FF900E;
-border-radius: 8px;
-width: 240px;
-height: 240px;
-align-items: center;
-justify-content: center;
-text-align: center;
-margin-left: 40px;
-}
+/*  choose part */
 
 
 .choose{
@@ -232,7 +237,7 @@ margin-left: 40px;
 }
 .choose-title h2{
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
@@ -290,14 +295,14 @@ margin-left: 40px;
     padding: 40px 40px 40px 40px;
 }
 .choose-text{
-    font-size: 24;
+    font-size: 1.5rem;
     font-weight: bold;
     padding-top: 16px;
     color: #FFFFFF;
 }
 .chose-tp{
     padding-top: 16px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     /* color: #FFFFFF; */
     color: rgb(156, 144, 144);
@@ -328,7 +333,7 @@ margin-left: 40px;
     text-align: center;
 }
 .featured-text{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     color: #FFFFFF;
     padding-bottom: 40px;
@@ -336,7 +341,7 @@ margin-left: 40px;
 
 .card-title{
     padding-top: 15px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #FFFFFF;
     padding: 24px 24px 24px 12px;
@@ -344,14 +349,14 @@ margin-left: 40px;
 
 .card-para{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     padding: 0px 24px 24px 24px;
 }
 .time{
     color: #00FF88;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     font-weight: 400;
     padding-left: 20px;
@@ -393,7 +398,7 @@ margin-left: 40px;
 }
 .host-text{
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -425,7 +430,7 @@ margin-left: 40px;
 
 .name{
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     padding-bottom: 16px;
 }
@@ -433,7 +438,7 @@ margin-left: 40px;
 .alex-para{
 
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     padding-bottom: 20px;
@@ -484,17 +489,39 @@ margin-left: 40px;
 }
 .icon-text{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .copyright{
     color: #FAFAFA;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     padding-top: 50px;
     line-height: 24px;
+}
+
+.spotif{
+    padding-right: 10px;
+    padding-top: 2px;
+
+}
+
+.message{
+        padding-right: 10px;
+        padding-top: 2px;
+}
+
+/* responsive part */
+
+@media screen and (max-witdth: 576px) {
+
+.count{
+    padding-right: 200px;
+    padding-bottom: 120px;
+}
+    
 }
 
 

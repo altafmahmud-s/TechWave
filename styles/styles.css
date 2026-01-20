@@ -192,6 +192,9 @@ a{
     border: 1px solid red;
 
 }
+
+/* count part */
+
 .count{
     display: flex;
     justify-content: center;
@@ -515,12 +518,18 @@ a{
 
 /* responsive part */
 
-@media screen and (max-witdth: 576px) {
+@media screen and (max-width: 576px){
 
 .count{
     padding-right: 200px;
     padding-bottom: 120px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
 }
+    
+}
+@media screen and (max-wi) {
     
 }
 
